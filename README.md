@@ -6,27 +6,9 @@ Android 单张图片查看器。支持拖动，双击放大，双指缩放。
 
 ![image](https://github.com/iWay7/AndroidImageViewer/blob/master/sample.gif)   
 
-### 简单的集成方式
+### 本示例基于 AndroidHelpers 库，访问 https://github.com/iWay7/AndroidHelpers 添加依赖。
 
-#### 第一步：在你的项目 build.gradle 添加 maven 库：
-```
-allprojects {
-    repositories {
-        ...
-        maven { url 'https://www.jitpack.io' }
-    }
-}
-```
-
-#### 第二步：在你的模块 build.gradle 添加依赖库：
-```
-dependencies {
-    ...
-    api 'com.github.iWay7:AndroidHelpers:1.0.4'
-}
-```
-
-#### 然后就可以开心的使用啦：
+#### 开始使用：
 ##### 在布局文件中声明一个 ImageViewer 视图：
 ```
 <site.iway.androidhelpers.ImageViewer
